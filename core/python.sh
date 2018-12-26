@@ -1,7 +1,7 @@
 install_python() {
     # bpython is the best interpreter! :D
     echo "Installing core packages ..."
-    sudo apt-get -qq install -y python2.7-dev python-setuptools python-pip bpython
+    sudo apt -qq install -y python2.7-dev python-setuptools python-pip bpython bpython3 python3-dev
     pip install --upgrade setuptools
     pip install --upgrade pip
 }
@@ -33,6 +33,6 @@ pip_basic_libs() {
 echo "[ Python setup ]"
 install_python
 pip_basic_libs
-pip_data_libs
-pip_net_libs
-pip_db_libs
+#pip_data_libs
+#pip_net_libs
+#pip_db_libs
