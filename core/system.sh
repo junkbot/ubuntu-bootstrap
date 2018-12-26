@@ -23,7 +23,7 @@ sudo apt install -y sqlite3 postgresl mongodb
 
 # useful tools
 #sudo apt -qq install -y zip unzip upx unrar-free jq dnsutils tcpdump httpie
-sudo apt install -y zip unzip jq htop
+sudo apt install -y zip unzip jq htop pdftk
 
 # cli session management
 #sudo apt install -y tmux byobu 
